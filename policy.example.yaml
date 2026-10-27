@@ -1,0 +1,18 @@
+# The half a run limit does not cover: which calls a run may make without a person.
+# Reference: https://kortix.com/docs/project/manifest
+policy:
+  default_mode: risk
+
+policies:
+  - match: gmail.send_email
+    action: always_run
+    conditions:
+      - arg: to
+        match: "*@example.com"
+  - match: gmail.send_email
+    action: require_approval
+  - match: gmail.send_email
+    action: block
+
+approvals:
+  ttl: 4h
