@@ -1,0 +1,20 @@
+# Two triggers, both capped, both reviewable.
+# Reference: https://kortix.com/docs/connect/triggers
+triggers:
+  - slug: daily-digest
+    type: cron
+    agent: kortix
+    cron: "0 0 9 * * 1-5"
+    timezone: Europe/Berlin
+    prompt: Summarize yesterday's commits and open change requests.
+    max_runs_per_hour: 4
+    max_runs_per_day: 4
+    overlap: skip
+
+  - slug: pr-review
+    type: webhook
+    agent: kortix
+    secret_env: GITHUB_WEBHOOK_SECRET
+    prompt: "Review {{ body.pull_request.html_url }}"
+    max_runs_per_hour: 20
+    max_runs_per_day: 100
