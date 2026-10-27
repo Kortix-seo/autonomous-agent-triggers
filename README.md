@@ -60,6 +60,12 @@ A cap governs how much work arrives, not what lands. A session runs one agent in
 
 ## Read more
 
-- What an autonomous agent run costs, and how the caps bound the bill: [autonomousaiagentsguide.com](https://autonomousaiagentsguide.com/what-an-autonomous-agent-run-costs)
-- Triggers reference: [kortix.com/docs/connect/triggers](https://kortix.com/docs/connect/triggers)
-- Kortix on GitHub: [github.com/kortix-ai/suna](https://github.com/kortix-ai/suna)
+Each of these pages covers one question this manifest raises, in order:
+
+- [What an autonomous agent run costs](https://autonomousaiagentsguide.com/what-an-autonomous-agent-run-costs), and how the caps above bound the bill.
+- [What autonomous AI agents are](https://autonomousaiagentsguide.com/what-are-autonomous-ai-agents), with a test you can apply to any vendor's definition.
+- [Running an agent with nobody watching](https://autonomousaiagentsguide.com/running-an-agent-with-nobody-watching) walks the trigger types one by one and what each needs before the first fire.
+- [Autonomous vs human in the loop](https://autonomousaiagentsguide.com/autonomous-vs-human-in-the-loop) places the person at one of three levels and shows what each costs.
+- [Open-source autonomous AI agents](https://autonomousaiagentsguide.com/open-source-autonomous-ai-agents) compares four projects on where their rules live.
+- [Autonomous agent examples](https://autonomousaiagentsguide.com/autonomous-agent-examples) shows the work these runs hand back.
+- [Triggers reference](https://kortix.com/docs/connect/triggers) and [Kortix on GitHub](https://github.com/kortix-ai/suna) for the platform behind the manifest.
