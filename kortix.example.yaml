@@ -1,5 +1,5 @@
 # Two triggers, both capped, both reviewable.
-# Reference: https://kortix.com/docs/connect/triggers
+# Reference: https://kortix.com/docs/developers#triggers-keys
 triggers:
   - slug: daily-digest
     type: cron
