@@ -70,4 +70,5 @@ Each of these pages covers one question this manifest raises:
 - [Autonomous vs human in the loop](https://autonomousaiagentsguide.com/autonomous-vs-human-in-the-loop) places the person at one of three levels and shows what each costs.
 - [Open-source autonomous AI agents](https://autonomousaiagentsguide.com/open-source-autonomous-ai-agents) compares four projects on where their rules live.
 - [Autonomous agent examples](https://autonomousaiagentsguide.com/autonomous-agent-examples) shows the work these runs hand back.
+- [Autonomous AI agent frameworks](https://autonomousaiagentsguide.com/autonomous-ai-agent-frameworks) compares the seven frameworks the engines name for this work, and where each one stops: the tool rules, the merge and the run cap are not in any of them.
 - [Triggers keys](https://kortix.com/docs/developers#triggers-keys) and [Kortix on GitHub](https://github.com/kortix-ai) for the keys and the repository behind the manifest.
